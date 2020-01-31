@@ -4,6 +4,9 @@
   "description": "An Ethereum Marketplace",
   "author": "gregory@dappuniversity.com",
   "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "axios": "^0.19.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
@@ -14,10 +17,24 @@
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.1",
+    "express": "^4.17.1",
+    "firebase": "^7.3.0",
+    "jwt-decode": "^2.2.0",
+    "material-ui": "^0.20.2",
+    "mongoose": "^5.7.9",
+    "mysql": "^2.17.1",
     "react": "16.8.4",
     "react-bootstrap": "1.0.0-beta.5",
     "react-dom": "16.8.4",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.3",
+    "react-scroll-horizontal": "^1.6.2",
+    "react-table": "^6.10.3",
+    "react-tap-event-plugin": "^3.0.3",
+    "react-with-firebase-auth": "^1.1.0",
+    "recharts": "^1.8.5",
     "truffle": "5.0.5",
     "web3": "1.0.0-beta.55"
   },
@@ -35,5 +52,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "http://localhost:5000"
 }
